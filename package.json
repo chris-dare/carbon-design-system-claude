@@ -1,0 +1,38 @@
+{
+  "name": "carbon-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IBM Carbon Design System packaged as a Claude Design design system: tokens plus React component examples.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "build:tokens": "node scripts/generate-tokens.mjs",
+    "build:css": "sass --load-path=node_modules styles/index.scss styles/carbon.css --no-source-map",
+    "render": "node --import ./scripts/register.mjs scripts/render.mjs",
+    "check:css": "node scripts/check-css.mjs",
+    "verify": "npm run build:tokens && npm run build:css && npm run check:css && npm run render",
+    "ds:prep": "node scripts/ds-sync-prep.mjs",
+    "ds:previews": "node scripts/gen-previews.mjs && node scripts/restore-skeleton-previews.mjs && node scripts/gen-chart-previews.mjs && node scripts/gen-subpart-previews.mjs && node scripts/fix-preview-tokens.mjs",
+    "ds:docs": "npm run ds:fetch-docs && node scripts/gen-docs.mjs && node scripts/enrich-docs.mjs",
+    "ds:guides": "npm run ds:fetch-docs && node scripts/gen-guides.mjs",
+    "ds:all": "npm run ds:prep && npm run ds:previews && npm run ds:docs && npm run ds:guides",
+    "ds:sync": "node .ds-sync/resync.mjs --config .design-sync/config.json --node-modules ./node_modules --out ./ds-bundle",
+    "ds:verdict": "node -e \"const v=require('./ds-bundle/.resync-verdict.json');console.log(JSON.stringify({ok:v.ok,stages:v.stages,unmerged:v.learningsUnmerged.length},null,2))\"",
+    "ds:fetch-docs": "node scripts/fetch-carbon-docs.mjs"
+  },
+  "dependencies": {
+    "@carbon/charts": "^1.27.19",
+    "@carbon/charts-react": "^1.27.19",
+    "@carbon/pictograms-react": "^11.110.0",
+    "@carbon/react": "^1.116.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.63.0",
+    "sass": "^1.80.0"
+  }
+}

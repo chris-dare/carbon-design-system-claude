@@ -1,0 +1,9 @@
+// Carbon's default $font-path is '~@ibm/plex' — a webpack-only prefix that
+// plain CSS cannot resolve, so its 90 generated @font-face rules all 404 and
+// Carbon silently falls back to system fonts. Disable that emission and load
+// IBM Plex from Google Fonts instead, which resolves anywhere the previews
+// are rendered.
+@use "@carbon/react/scss/config" with ($css--font-face: false);
+@use "@carbon/react";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@400;600&display=swap");

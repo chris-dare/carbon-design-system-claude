@@ -1,0 +1,229 @@
+{
+  "projectId": "32c84314-e9e6-4e17-8ce6-b89f52d3cff5",
+  "shape": "package",
+  "pkg": "@carbon/react",
+  "globalName": "Carbon",
+  "cssEntry": "_ds_carbon_styles.css",
+  "tokensPkg": "@carbon/themes",
+  "extraEntries": [
+    "@carbon/icons-react",
+    "@carbon/charts-react"
+  ],
+  "docsDir": "../../../.design-sync/docs",
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "ProgressIndicator": {
+      "cardMode": "column"
+    },
+    "RadioButton": {
+      "cardMode": "column"
+    },
+    "Pagination": {
+      "cardMode": "column"
+    },
+    "Header": {
+      "cardMode": "single",
+      "primaryStory": "TopHeader"
+    },
+    "HeaderPanel": {
+      "cardMode": "single",
+      "primaryStory": "RightPanel"
+    },
+    "SideNav": {
+      "cardMode": "single",
+      "primaryStory": "LeftPanel"
+    },
+    "Menu": {
+      "cardMode": "single",
+      "primaryStory": "Standalone"
+    },
+    "Modal": {
+      "cardMode": "single",
+      "primaryStory": "Basic"
+    },
+    "Button": {
+      "cardMode": "column"
+    },
+    "DataTable": {
+      "cardMode": "column"
+    },
+    "ModalWrapper": {
+      "cardMode": "column"
+    },
+    "AILabelActions": {
+      "cardMode": "single"
+    },
+    "AILabelContent": {
+      "cardMode": "single"
+    },
+    "ComposedModal": {
+      "cardMode": "single"
+    },
+    "ComposedModalPresence": {
+      "cardMode": "single"
+    },
+    "Content": {
+      "cardMode": "single"
+    },
+    "HeaderContainer": {
+      "cardMode": "single"
+    },
+    "HeaderGlobalAction": {
+      "cardMode": "single"
+    },
+    "HeaderGlobalBar": {
+      "cardMode": "single"
+    },
+    "HeaderMenu": {
+      "cardMode": "single"
+    },
+    "HeaderMenuButton": {
+      "cardMode": "single"
+    },
+    "HeaderMenuItem": {
+      "cardMode": "single"
+    },
+    "HeaderName": {
+      "cardMode": "single"
+    },
+    "HeaderNavigation": {
+      "cardMode": "single"
+    },
+    "HeaderSideNavItems": {
+      "cardMode": "single"
+    },
+    "MenuItem": {
+      "cardMode": "single"
+    },
+    "MenuItemDivider": {
+      "cardMode": "single"
+    },
+    "MenuItemGroup": {
+      "cardMode": "single"
+    },
+    "MenuItemRadioGroup": {
+      "cardMode": "single"
+    },
+    "MenuItemSelectable": {
+      "cardMode": "single"
+    },
+    "ModalBody": {
+      "cardMode": "single"
+    },
+    "ModalFooter": {
+      "cardMode": "single"
+    },
+    "ModalHeader": {
+      "cardMode": "single"
+    },
+    "ModalPresence": {
+      "cardMode": "single"
+    },
+    "OverflowMenuItem": {
+      "cardMode": "single"
+    },
+    "SideNavDetails": {
+      "cardMode": "single"
+    },
+    "SideNavDivider": {
+      "cardMode": "single"
+    },
+    "SideNavFooter": {
+      "cardMode": "single"
+    },
+    "SideNavHeader": {
+      "cardMode": "single"
+    },
+    "SideNavIcon": {
+      "cardMode": "single"
+    },
+    "SideNavItem": {
+      "cardMode": "single"
+    },
+    "SideNavItems": {
+      "cardMode": "single"
+    },
+    "SideNavLink": {
+      "cardMode": "single"
+    },
+    "SideNavLinkText": {
+      "cardMode": "single"
+    },
+    "SideNavMenu": {
+      "cardMode": "single"
+    },
+    "SideNavMenuItem": {
+      "cardMode": "single"
+    },
+    "SideNavSwitcher": {
+      "cardMode": "single"
+    },
+    "SkipToContent": {
+      "cardMode": "single"
+    },
+    "Accordion": {
+      "cardMode": "column"
+    }
+  },
+  "componentSrcMap": {
+    "ButtonKinds": null,
+    "ButtonSizes": null,
+    "ButtonTooltipAlignments": null,
+    "ButtonTooltipPositions": null,
+    "IconButtonKinds": null,
+    "ToggleSmallSkeleton": null,
+    "AlluvialChart": "../charts-react/dist/AlluvialChart.tsx",
+    "AreaChart": "../charts-react/dist/AreaChart.tsx",
+    "BoxplotChart": "../charts-react/dist/BoxplotChart.tsx",
+    "BubbleChart": "../charts-react/dist/BubbleChart.tsx",
+    "BulletChart": "../charts-react/dist/BulletChart.tsx",
+    "CirclePackChart": "../charts-react/dist/CirclePackChart.tsx",
+    "ComboChart": "../charts-react/dist/ComboChart.tsx",
+    "DonutChart": "../charts-react/dist/DonutChart.tsx",
+    "GaugeChart": "../charts-react/dist/GaugeChart.tsx",
+    "GroupedBarChart": "../charts-react/dist/GroupedBarChart.tsx",
+    "HeatmapChart": "../charts-react/dist/HeatmapChart.tsx",
+    "HistogramChart": "../charts-react/dist/HistogramChart.tsx",
+    "LineChart": "../charts-react/dist/LineChart.tsx",
+    "LollipopChart": "../charts-react/dist/LollipopChart.tsx",
+    "MeterChart": "../charts-react/dist/MeterChart.tsx",
+    "PieChart": "../charts-react/dist/PieChart.tsx",
+    "RadarChart": "../charts-react/dist/RadarChart.tsx",
+    "ScatterChart": "../charts-react/dist/ScatterChart.tsx",
+    "SimpleBarChart": "../charts-react/dist/SimpleBarChart.tsx",
+    "StackedAreaChart": "../charts-react/dist/StackedAreaChart.tsx",
+    "StackedBarChart": "../charts-react/dist/StackedBarChart.tsx",
+    "TreeChart": "../charts-react/dist/TreeChart.tsx",
+    "TreemapChart": "../charts-react/dist/TreemapChart.tsx",
+    "WordCloudChart": "../charts-react/dist/WordCloudChart.tsx"
+  },
+  "guidelinesGlob": [
+    "../../../guides/**/*.md"
+  ],
+  "dtsPropsFor": {
+    "AlluvialChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "AreaChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "BoxplotChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "BubbleChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "BulletChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "CirclePackChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "ComboChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "DonutChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "GaugeChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "GroupedBarChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "HeatmapChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "HistogramChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "LineChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "LollipopChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "MeterChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "PieChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "RadarChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "ScatterChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "SimpleBarChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "StackedAreaChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "StackedBarChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "TreeChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "TreemapChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;",
+    "WordCloudChart": "  /**\n   * The data to plot. Most charts take [{ group, key, value }]; hierarchical\n   * charts (Treemap, CirclePack, Tree) take a nested { name, children } tree,\n   * and Alluvial takes [{ source, target, value }].\n   */\n  data: object[] | object;\n  /**\n   * Chart configuration. Full reference: https://charts.carbondesignsystem.com/\n   * A height is effectively required — charts measure their container and an\n   * unsized chart renders a 0-height SVG.\n   */\n  options: {\n    title?: string;\n    height?: string;\n    width?: string;\n    theme?: 'white' | 'g10' | 'g90' | 'g100';\n    resizable?: boolean;\n    axes?: Record<string, {\n      mapsTo?: string;\n      title?: string;\n      scaleType?: 'linear' | 'log' | 'time' | 'labels';\n    }>;\n    legend?: { enabled?: boolean; position?: 'top' | 'bottom' | 'left' | 'right' };\n    toolbar?: { enabled?: boolean };\n    tooltip?: { enabled?: boolean };\n    color?: { scale?: Record<string, string> };\n    [key: string]: unknown;\n  };\n  className?: string;\n  id?: string;"
+  }
+}
