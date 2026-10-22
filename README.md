@@ -64,9 +64,16 @@ Run this yourself at the prompt — it cannot be invoked on your behalf:
 
 ```bash
 cd path/to/carbon-design-system
+npm install
+npm run ds:prep      # required after every npm i — see .design-sync/NOTES.md
 claude
 /design-sync
 ```
+
+`ds:prep` stages Carbon's prebuilt stylesheet where the converter's `cssEntry`
+expects it and annotates the `--cds-grid-*` family. The sync does not run it,
+and `npm i` wipes it, so a sync without it produces a bundle with no component
+CSS.
 
 ## A note on fonts
 
